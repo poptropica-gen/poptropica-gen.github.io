@@ -40,7 +40,7 @@ function add_item(username, password, id) {
 	    contentType: 'application/x-www-form-urlencoded',
 	    async: true,
 	    error: function(error) {
-	        alert(error.responseText);
+	        console.log(error.responseText);
 	    }
 	});
 }
